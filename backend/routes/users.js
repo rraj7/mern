@@ -1,5 +1,5 @@
 const router = require('express').Router();
-let Excersise = require('../models/user.model');
+let user = require('../models/user.model');
 
 router.route('/').get((req, res) => {
     user.find()

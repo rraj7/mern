@@ -22,7 +22,7 @@ connection.once('open', ()=> {
 
 
 //Routes Folder
-var exerciseRouter = require('./routes/exercises');
+var exerciseRouter = require('./routes/exersices');
 var userRouter = require('./routes/users');
 
 app.use('/exercises',exerciseRouter);
